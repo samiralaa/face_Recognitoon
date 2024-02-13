@@ -28,7 +28,6 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS attendance
                   face LONGBLOB)''')
 
 # Start capturing video from webcam
-
 cap = cv2.VideoCapture(0)
 
 # Flag to track if face is saved
